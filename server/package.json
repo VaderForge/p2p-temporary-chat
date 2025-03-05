@@ -1,0 +1,16 @@
+{
+    "name": "p2p-temp-chat",
+    "version": "1.0.0",
+    "description": "A P2P temporary chat app using WebRTC and WebSockets",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "ws": "^8.15.0"
+    },
+    "engines": {
+      "node": ">=14"
+    }
+  }
+  

@@ -1,0 +1,115 @@
+/* Majestic Chat UI */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Username Modal */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.username-modal input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.username-modal button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.username-modal button:hover {
+    background: #0056b3;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2a5298;
+}
+
+/* Chat Box */
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Typing Indicator */
+#typing-indicator {
+    font-size: 14px;
+    color: gray;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-btn {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#send-btn:hover {
+    background: #0056b3;
+}

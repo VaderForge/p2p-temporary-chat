@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2P Temporary Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay">
+        <div class="username-modal">
+            <h2>Enter Your Username</h2>
+            <input type="text" id="username-input" placeholder="Username">
+            <button id="save-username-btn">Join Chat</button>
+        </div>
+    </div>
+    
+    <div class="chat-container">
+        <h1>P2P Temporary Chat</h1>
+        <div id="chat-box"></div>
+        <p id="typing-indicator"></p>
+        <div class="input-container">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
