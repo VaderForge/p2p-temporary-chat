@@ -38,3 +38,43 @@ npm install
 
 # Start the server
 node server.js
+
+Deploy on Render
+📌 Steps:
+Go to Render.com
+Click New Web Service
+Connect your GitHub repository
+Select p2p-temporary-chat
+Set:
+Build Command: npm install
+Start Command: node server.js
+Click Deploy 🎉
+👨‍💻 Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js, Express, WebSockets
+Hosting: Render.com
+✨ Future Enhancements
+🔹 User Nicknames for better identification
+🔹 Message Timestamps for clarity
+🔹 Room IDs & Invitations for private chats
+🔹 Chat Encryption for better security
+
+🛠️ Contributing
+Want to improve this project? Contributions are welcome!
+
+Fork the repo
+Create a new branch: git checkout -b feature-name
+Commit changes: git commit -m "Added new feature"
+Push to GitHub: git push origin feature-name
+Create a Pull Request
+📜 License
+This project is open-source under the MIT License.
+
+📬 Contact
+💬 Have questions or suggestions? Feel free to reach out! 😃
+📧 Email: hareharan.it21@bitsathy.ac.in
+
+
+---
+
+Let me know if you need any modifications! 🚀🔥
